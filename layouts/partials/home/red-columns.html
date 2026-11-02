@@ -3,7 +3,10 @@
 
 <div class="red-container">
     <p class="text">{{ $d.top_text | markdownify }}</p>
-    <div class="box">
+    <p class="headline">{{ $d.headline }}</h3>
+    <p>{{ $d.bottom_text | markdownify }}</p>
+    </div>
+    <!-- <div class="box">
         <h3 style="color: white; margin-bottom: 0;">{{ $d.box_title }}</h3>
         <p>{{ $d.box_text | markdownify }}</p>
         <div class="logos-container">
@@ -16,6 +19,5 @@
                 <p>{{ $d.kunming_text | markdownify }}</p>
             </a>
         </div>
-    </div>
-    <h3>{{ $d.headline }}</h3>
+    </div> -->
 </div>

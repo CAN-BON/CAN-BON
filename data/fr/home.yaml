@@ -33,24 +33,16 @@ canada_bon_columns :
 
 two_columns:
   top_text:
-    Le Canada fait progresser une stratégie ambitieuse intitulée [**« Une force de la nature »**](https://www.canada.ca/fr/services/environnement/nature/strategie-nature.html), assortie d'un engagement de 3,8 milliards de dollars pour l'initiative « 30x30 ». 
-    Cette démarche s'inscrit dans le prolongement du [**Cadre mondial de Kunming-Montréal pour la biodiversité**](https://www.cbd.int/gbf/targets) adopté dans le cadre de la Convention sur la diversité biologique (CDB) des Nations Unies.
-  headline: "CAN BON contribuera à honorer les engagements nationaux et internationaux du Canada."
-  box_title: "L'initiative 30x30"
-  box_text: "Protéger **30 %** des terres et des eaux du Canada d'ici **2030**"
-  force_of_nature_text: "« Une force de la nature »"
-  force_of_nature_link: "https://www.canada.ca/fr/services/environnement/nature/strategie-nature.html"
-  # kunming_text: "Kunming-Montreal Global Biodiversity Framework"
-  kunming_text: "KMGBF"
-  kunming_link: "https://www.cbd.int/gbf"
-
+    Le Canada a alloué 3,8 milliards de dollars à l'initiative [**Une force de la nature**](https://www.canada.ca/fr/services/environnement/nature/strategie-nature.html), faisant ainsi progresser son objectif de protéger et de conserver 30 % des terres et des eaux d'ici 2030 (cible 30x30).
+    En tant que partie au [**Cadre mondial de Kunming-Montréal pour la biodiversité (CMKM)**](https://www.cbd.int/gbf/targets), le Canada s'est également engagé à restaurer les écosystèmes dégradés, à mettre fin aux extinctions d'espèces causées par l'activité humaine, ainsi qu'à limiter la prolifération des espèces envahissantes et la perte de biodiversité.
+  headline: "Atteindre ces objectifs nécessite des données fiables pour comprendre la biodiversité, suivre les changements et mesurer les progrès."
+  bottom_text : "CAN BON relie et coordonne les initiatives de suivi de la biodiversité à l'échelle du Canada, contribuant ainsi à la réalisation des engagements nationaux et internationaux en matière de nature."
+  
 
 development_plan:
   title: "Plan de développement"
   text: "CAN BON sera développé selon quatre phases d'action :"
   first_step: "Évaluation"
   second_step: "Engagement"
-  third_step: "Conception"
+  third_step: "Design"
   fourth_step: "Mise en œuvre"
-  design_summit: "Nous préparons un Sommet du design CAN BON qui se tiendra en **juin 2027**."
-  get_in_touch: "[**Contactez-nous pour en savoir plus**](mailto:charlotte.lombardi@mcgill.ca)"

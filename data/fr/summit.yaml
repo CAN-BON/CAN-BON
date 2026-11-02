@@ -1,3 +1,47 @@
 introduction : 
   introduction_title : "Sommet du design CAN BON"
-  introduction_text : "Le sommet du design CAN BON..."
+  introduction_text : "CAN BON suit un processus de développement en quatre étapes : évaluation, engagement, design et mise en œuvre."
+  tagline : Des démarches d'évaluation et de concertation sont en cours.<br>**Pour faire passer CAN BON à l'étape suivante, un sommet de conception se tiendra en juin 2027 à Montréal.**
+
+
+description : 
+  first: |
+    En amont du sommet, le secrétariat et les groupes de travail de **CAN BON** se concentrent sur les axes suivants :
+    - Actualiser le paysage de la surveillance de la biodiversité au Canada
+    - Mobiliser les utilisateurs et les producteurs de données sur la biodiversité et nouer des partenariats avec eux
+    - Explorer des modèles de gouvernance et de financement à long terme
+
+  second : |
+    Lors du sommet, les **spécialistes des données sur la biodiversité** et les **futurs utilisateurs de CAN BON** échangeront sur les points suivants :
+    - Gouvernance et modèles opérationnels
+    - Projets pilotes
+    - Feuille de route pour la mise en œuvre
+    - Plan de développement technique
+    - Engagements des partenaires
+    - Besoins en ressources et en financement à long terme
+
+details : 
+  title: Détails du sommet
+  bullet_points: |  
+    - **Date :** 7 & 8 juin 2027 
+    - **Emplacement :** Campus du centre-ville de McGill 
+    - **Format :** Événement en personne 
+    - **Participants :** Experts en surveillance de la biodiversité (sciences occidentales et autochtones), scientifiques et architectes des données, dirigeants de réseaux de biodiversité, représentants de surveillance pilote, décideurs et régulateurs de la biodiversité, gouvernements municipaux, provinciaux et fédéraux.
+  invitations : |
+    Les invitations au Sommet seront diffusées au cours des prochains mois. 
+
+    Pour manifester votre intérêt à participer, veuillez contacter [charlotte.lombardi@mcgill.ca](mailto:charlotte.lombardi@mcgill.ca). 
+
+    Afin de garantir des séances de travail productives, le nombre de participants au Sommet sera limité à **100 personnes**.
+
+about_section: 
+  about_title: "Pour soutenir la mission de CAN BON"
+  description: "CAN BON accueille favorablement toute contribution visant à assurer le succès du Sommet du design : contribuez, conseillez, investissez."
+  column_1_title : "Contribuez"
+  column_1_text : "Contribuez au réseau avec vos données de suivi de la biodiversité ou proposez un projet pilote"
+  column_2_title : "Conseillez"
+  column_2_text : "Apportez votre expertise aux groupes de travail de CAN BON"
+  column_3_title : "Investissez"
+  column_3_text : "Parrainez le sommet ou faites un don pour soutenir la mission de CAN BON"
+  about_button_text : "Contactez-nous"
+  about_button_link : "mailto:charlotte.lombardi@mcgill.ca"

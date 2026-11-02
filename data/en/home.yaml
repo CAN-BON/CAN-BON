@@ -32,9 +32,10 @@ canada_bon_columns :
 
 two_columns:
   top_text:
-    Canada is advancing an ambitious [**"A Force of Nature" strategy**](https://www.canada.ca/en/services/environment/nature/nature-strategy.html), with a commitment of $3.8 billion for the 30x30 initiative. 
-    This is in alignment with the UN Convention on Biological Diversity (CBD) [**Kunming-Montreal Global Biodiversity Framework (KMGBF)**](https://www.cbd.int/gbf/targets).
-  headline: "CAN BON will help deliver on Canada's national and international commitments"
+    Canada has committed $3.8 billion to [**A Force of Nature**](https://www.canada.ca/en/services/environment/nature/nature-strategy.html), advancing its goal to protect and conserve 30% of lands and waters by 2030 (30x30). 
+    As a Party to the [**Kunming-Montreal Global Biodiversity Framework (KMGBF)**](https://www.cbd.int/gbf/targets), Canada has also committed to restoring degraded ecosystems, halting human-caused species extinctions, and reducing invasive species and biodiversity loss.
+  headline: "Delivering on these goals requires reliable data to understand biodiversity, track change, and measure progress."
+  bottom_text : "CAN BON connects and coordinates biodiversity monitoring efforts across Canada, helping to deliver on national and international nature commitments."
   box_title: "The 30x30 initiative"
   box_text: "Protecting **30%** of Canadian lands and waters by **2030**"
   force_of_nature_text: "Canada's \"A Force of Nature\""
@@ -50,5 +51,3 @@ development_plan:
   second_step: "Engagement"
   third_step: "Design"
   fourth_step: "Implementation"
-  design_summit: "We're building towards a CAN BON Design Summit in **June 2027**"
-  get_in_touch: "[**Get in touch to learn more**](mailto:charlotte.lombardi@mcgill.ca)"

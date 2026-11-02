@@ -1,0 +1,18 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $d := index hugo.Data $lang "summit" "details" }}
+
+<div class="summit-page">
+    <div class="details">
+        <div class="main-content">
+            <div class="columns">
+                <div class="column-left">
+                    <h1 class="section-title">{{ $d.title }}</h1>
+                    <p>{{ $d.bullet_points | markdownify}}</p>
+                </div>
+                <div class="column-right">
+                    <p>{{ $d.invitations | markdownify}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

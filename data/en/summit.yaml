@@ -1,3 +1,46 @@
 introduction : 
   introduction_title : "CAN BON Design Summit"
-  introduction_text : "CAN BON's Design Summit ..."
+  introduction_text : "CAN BON is following a four-step development process: Assessment, Engagement, Design, Implementation."
+  tagline : Assessment and engagement efforts are underway.<br>**To move CAN BON to the next phase, a Design Summit will be held in June 2027 in Montreal.**
+
+description : 
+  first: |
+    Ahead of the Summit, **CAN BON's secretariat** and **working groups** are focusing on: 
+    - Updating Canada's biodiversity monitoring landscape 
+    - Engaging and partnering with users and producers of biodiversity data
+    - Exploring long-term governance and financing models 
+
+  second : |
+    At the Summit, **biodiversity data scientists** and **future CAN BON users** will discuss: 
+    - Governance and operating models
+    - Pilot projects
+    - Implementation roadmap 
+    - Technical development plan 
+    - Partner commitments 
+    - Long-term resource and funding requirements 
+
+details : 
+  title: Summit details
+  bullet_points: |  
+    - **Date :** 7 & 8 June 2027
+    - **Location :** McGill downtown campus
+    - **Format :** In-person, closed event
+    - **Attendees :** Biodiversity monitoring experts (western and Indigenous science) data scientists and architects, biodiversity network leaders, pilot monitoring representatives, biodiversity policy makers and regulators, municipal, provincial and federal government.
+  invitations : |
+    Invitations to attend the Summit will be shared in the coming months. 
+    
+    To register your interest in attending, please contact [charlotte.lombardi@mcgill.ca](mailto:charlotte.lombardi@mcgill.ca). 
+    
+    To ensure productive work sessions, the Summit will be capped at **100 attendees**.
+
+about_section: 
+  about_title: "To support CAN BON's mission"
+  description: "CAN BON welcomes contributions to making the Design Summit a success: Contribute, Advise, Invest."
+  column_1_title : "Contribute"
+  column_1_text : "Contribute your biodiversity monitoring data to the network or pitch a pilot project"
+  column_2_title : "Advise"
+  column_2_text : "Add your expertise to CAN BON's working groups"
+  column_3_title : "Invest"
+  column_3_text : "Sponsor the Summit or donate funds to CAN BON's mission"
+  about_button_text : "Get in touch"
+  about_button_link : "mailto:charlotte.lombardi@mcgill.ca"
