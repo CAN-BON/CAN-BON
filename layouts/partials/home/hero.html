@@ -1,0 +1,15 @@
+{{ $lang := .Site.Language.Lang }}
+<!-- used to be .Site.Language.Name -->
+{{ $d := index hugo.Data $lang "home" "header" }}
+
+
+<div class="hero-home" 
+    style="
+        background-image: linear-gradient(to bottom, rgba(55, 0, 0, 0.3),  rgba(128, 0, 0, 0.2)),
+        url('{{ printf "images/%s" $d.hero_name | relURL }}');"
+    >
+    <div class="hero-text">
+        <h2>{{ $d.introduction_title }}</h2>
+        <p class="hero-subtitle">{{ $d.introduction_text | markdownify }}</p>
+    </div>
+</div>

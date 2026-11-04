@@ -19,32 +19,5 @@
                 <a class="lang-link" href="{{ .Permalink }}">{{ .Language.Name }}</a>
             {{ end }}
         </div>
-
-        <!-- hamburger button -->
-        <button class="hamburger" onclick="openMenu()" aria-label="Menu">&#9776;</button>
-
-        <!-- modal overlay -->
-        <div class="menu-modal" id="menu-modal">
-            <nav class="menu-modal-links">
-                <a href="{{ $d.home_link | absLangURL }}" class="menu-modal-link">{{ $d.home }}</a>
-                <a href="{{ $d.about_link | absLangURL }}" class="menu-modal-link">{{ $d.about }}</a>
-                <a href="{{ $d.resources_link | absLangURL }}" class="menu-modal-link">{{ $d.resources }}</a>
-                <a href="{{ $d.summit_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.summit_link | absLangURL) }}active{{ end }}">{{ $d.summit }}</a>
-                {{ range .Translations }}
-                    <a class="menu-modal-link lang-link" href="{{ .Permalink }}">{{ .Language.Name }}</a>
-                {{ end }}
-            </nav>
-        </div>
-    </div>
-</div>
-
-<div class="hero-home" 
-    style="
-        background-image: linear-gradient(to bottom, rgba(55, 0, 0, 0.3),  rgba(128, 0, 0, 0.2)),
-        url('{{ printf "images/%s" $d.hero_name | relURL }}');"
-    >
-    <div class="hero-text">
-        <h2>{{ $d.introduction_title }}</h2>
-        <p class="hero-subtitle">{{ $d.introduction_text | markdownify }}</p>
     </div>
 </div>

@@ -181,15 +181,15 @@ ul{
     }
 
     .column-left, .column-right {
-        border-top: var(--dark-blue) 4px solid;
+        border-top: var(--dark-green) 4px solid;
+        background-color: var(--green-50);
         border-radius: 8px;
-        background-color: var(--blue-50);
         backdrop-filter: blur(4px);
         padding : 12px 36px;
         width: 50%;
 
-        h2 {
-            color: var(--dark-blue);
+        strong, h2 {
+            color: var(--dark-green);
         }
     }
 }
@@ -209,7 +209,6 @@ ul{
 
     .headline {
         color: var(--light-green); 
-        text-align: center;
         font-size: 18px;
         line-height: 1.75;
         font-weight: bold;
@@ -297,7 +296,7 @@ ul{
         background-attachment: fixed;
         background-position: top;
         background-size: contain;
-        padding-bottom: 24px;
+        padding-bottom: 60px;
     }
 
     .columns {
@@ -548,6 +547,14 @@ ul{
     }
 }
 
+.divider {
+    margin: 24px 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background-color: var(--green);
+}
+
 .about-page-working-groups {
     .container {
         margin-top: 24px;
@@ -557,13 +564,6 @@ ul{
 
     .main-content {
         padding: 12px;
-    }
-
-    .divider {
-        margin-top: 24px;
-        width: 8px;
-        border-radius: 2px;
-        background-color: var(--red);
     }
 
     .cards-container {
@@ -760,28 +760,28 @@ these are rendered in two different pages
     .subtitle {
         font-size: 18px;
         border-radius: 8px;
-        border-top: var(--dark-blue) solid 4px;
-        background-color: var(--blue-50);
+        border-top: var(--dark-green) solid 4px;
+        background-color: var(--green-50);
         padding: 20px;
         margin-top: 40px;
         font-weight: 300;
         line-height: 2;
 
         strong {
-            color: var(--dark-blue);
+            color: var(--dark-green);
         }
     }
 
     .description {
+        /* border-bottom: var(--green) solid 3px; */
         .columns {
             padding: 0;
-            justify-content: space-around;
+            justify-content: space-between;
         }
     }
 
     .details {
-        background-color: var(--green-50);
-        margin-top: 40px;
+        margin-bottom: 40px;
         padding: 24px 0;
 
         a, strong {
