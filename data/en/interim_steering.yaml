@@ -8,7 +8,7 @@ members:
     image_name: "myrle-ballard.png"
   - name: "Nadia Gilbert"
     bio: "Environment and Climate Change Canada"
-    # image_name: "patrick-henry.png"
+    image_name: "nadia-gilbert.png"
   - name: "Eleanor Haine"
     bio: "Genome Canada"
     image_name: "eleanor-haines.png"

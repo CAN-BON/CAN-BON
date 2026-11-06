@@ -1,6 +1,7 @@
 header: 
   canbon: "CAN BON"
-  hero_name: "hero.jpg"
+  hero_name: "hero-forest.jpg"
+  hero_freshwater : "hero-freshwater.jpg"
   home: "Home"
   home_link: ""
   about: "About us"

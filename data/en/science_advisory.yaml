@@ -3,6 +3,9 @@ introduction :
   introduction_text : "CAN BON's **Science Advisory Group** is an expert body convened to provide independent scientific and technical guidance. The Group’s purpose is to strengthen the scientific credibility and rigour of CAN BON, and ensure the development of the network is grounded in the best available evidence, methods, and practice."
 
 members:
+  - name: "Caitlin Bate"
+    bio: "Oceans Tracking Network"
+    image_name: "caitlin-bate.png"
   - name: "Amanda Bates"
     bio: "University of Victoria, Ocean Conservation Lab, Canadian Institute of Ecology & Evolution"
     image_name: "amanda-bates.png"

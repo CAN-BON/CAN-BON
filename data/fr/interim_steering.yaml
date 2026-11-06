@@ -9,11 +9,11 @@ members:
 
   - name: "Nadia Gilbert"
     bio: "Environnement et Changement climatique Canada"
-    # image_name: "patrick-henry.png"
+    image_name: "nadia-gilbert.png"
 
   - name: "Eleanor Haine"
     bio: "Génome Canada"
-    # image_name: "patrick-henry.png"
+    image_name: "eleanor-haines.png"
 
   - name: "Patrick Henry"
     bio: "NatureServe Canada"
@@ -21,7 +21,7 @@ members:
 
   - name: "Marie-Eve Neron"
     bio: "Environnement et Changement climatique Canada"
-    # image_name: "patrick-henry.png"
+    image_name: "marie-eve-neron.png"
 
   - name: "Brenda Parlee"
     bio: "Université McGill"
