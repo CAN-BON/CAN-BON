@@ -2,10 +2,10 @@
 <!-- used to be .Site.Language.Name -->
 {{ $d := index hugo.Data $lang "home" "header" }}
 
-<div class="navbar-home">
+<div class="navbar-pages">
     <div class="navbar-items left">
         <a class="navbar-items left" href="{{ $d.home_link | absLangURL }}">
-            <img class="navbar-logo no-drag" src="{{ "images/logo-red.png" | relURL }}">
+            <img class="navbar-logo no-drag" src="{{ "images/logo-white.png" | relURL }}">
             <p class="navbar-title" >{{ $d.canbon }}</p>
         </a>
     </div>
