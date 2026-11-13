@@ -4,7 +4,7 @@
     - Each page has it's own folder and `_index.md` file. As it stands now, this file doesn't contain much -- just the basic information for Hugo to recognize it as a page. 
     
     **Example :**
-    ```
+    ``` 
     +++
     title = "About CAN BON"
     draft = true/false --> if set to true, then Hugo will not render it
