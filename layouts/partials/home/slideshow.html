@@ -14,13 +14,44 @@
         margin-bottom: -10px;
     }
 
+    .slide-bg {
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 60vh; 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center; 
+        box-sizing: border-box;
+    }
+
+    .hero-text {
+        padding : 0 10vw;
+
+        h2 { 
+            font-size: 48px;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+        }
+        
+        .hero-subtitle , h2 {
+            color: white;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+
+        }
+    }
+
     /* Next & previous buttons */
     .prev, .next {
+        z-index: 10;
         cursor: pointer;
         position: absolute;
         top: 50%;
         width: auto;
-        padding: 10px 20px 10px 20px;
+        padding: 10px 17px;
         margin-top: -22px;
         margin-left : 25px;
         color: #ffffff80;
@@ -66,7 +97,7 @@
         transition: all 0.5s ease-in-out;
     }
 
-    .active, .dot:hover {
+    .dot.active, .dot:hover {
         background-color: #ffffff;
     }
 
@@ -74,6 +105,27 @@
     .fade {
         animation-name: fade;
         animation-duration: 1.5s;
+    }
+
+    .slide-bg {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* dark overlay, same for every slide */
+    .slide-bg::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+        z-index: 1;
+    }
+
+    /* keep the text above the overlay */
+    .slide-bg .hero-text {
+        position: relative;
+        z-index: 2;
     }
 
     @keyframes fade {
@@ -132,23 +184,11 @@
         }
     }
 
-    .slide-bg {
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 450px; 
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        justify-content: center; 
-        padding: 40px;
-        box-sizing: border-box;
-    }
 </style>
 
 <div class="slideshow-container">
     <div class="mySlides fade">
-        <div class="slide-bg" style="background-image: url(\'https://qcbs.ca/wp-content/uploads/2025/07/background-peekaboo-noLogo-1.png\'); background-position: 100% 100%;">
+        <div class="slide-bg" style="background-image: url('{{ "images/hero-forest.jpg" | relURL }}');">
             <div class="hero-text">
                 <h2>{{ $d.introduction_title }}</h2>
                 <p class="hero-subtitle">{{ $d.introduction_text | markdownify }}</p>
@@ -157,7 +197,7 @@
     </div>
     
     <div class="mySlides fade">
-        <div class="slide-bg" style="background-image: url(\'https://qcbs.ca/wp-content/uploads/2025/08/background-wolves-1.png\');background-position: 100% 0%;">
+        <div class="slide-bg" style="background-image: url('{{ "images/hero-ocean.jpg" | relURL }}');">
             <div class="hero-text">
                 <h2>{{ $d.introduction_title }}</h2>
                 <p class="hero-subtitle">{{ $d.introduction_text | markdownify }}</p>
@@ -166,20 +206,21 @@
     </div>
 
     <div class="mySlides fade">
-        <div class="slide-bg" style="background-image: url(\'https://qcbs.ca/wp-content/uploads/2025/08/background-wolves-1.png\');background-position: 100% 0%;">
+        <div class="slide-bg" style="background-image: url('{{ "images/hero-freshwater.jpg" | relURL }}')">
             <div class="hero-text">
                 <h2>{{ $d.introduction_title }}</h2>
                 <p class="hero-subtitle">{{ $d.introduction_text | markdownify }}</p>
             </div>
         </div>
     </div>
-    
+
     <a class="prev" onclick="plusSlidesManual(-1)">❮</a>
     <a class="next" onclick="plusSlidesManual(1)">❯</a>
 
     <div class="dots-bottom">
         <span class="dot" onclick="currentSlide(1)"></span> 
         <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
     </div>
 </div>
 

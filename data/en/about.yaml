@@ -52,7 +52,7 @@ partners:
     image_name: "logo-agrifood.png"
     link: "https://agriculture.canada.ca/en"
   - name: "Canadian Space Agency"
-    image_name: "logo-CSA.png"
+    image_name: "logo-csa.png"
     link: "https://www.asc-csa.gc.ca/eng/"
   - name: "Saint Lawrence Global Observatory"
     image_name: "logo-slgo-en.png"

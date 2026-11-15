@@ -78,7 +78,7 @@ partners:
     image_name: "logo-agrifood.png"
     link: "https://agriculture.canada.ca/fr"
   - name: "Agence spatiale canadienne"
-    image_name: "logo-CSA.png"
+    image_name: "logo-csa.png"
     link: "https://www.asc-csa.gc.ca/"
   - name: "Observatoire global du Saint-Laurent"
     image_name: "logo-slgo.png"
