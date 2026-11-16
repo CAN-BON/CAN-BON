@@ -456,7 +456,8 @@ ul{
 .about-page-coordinating-body {
     .coordinating-body-cards {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-columns: repeat(2, 1fr); */
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
         justify-items: center;
         gap: 48px;
 
@@ -1055,16 +1056,14 @@ these are rendered in two different pages
             }
         }
     }
-
-    .join-section-container {
-        background-size: 400%;
-        background-position: 0% 30%;
-        padding: 0;
-    }
     
     .columns {
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .arrow {
+        display: none;
     }
 
     /* ABOUT PAGE */
@@ -1075,23 +1074,8 @@ these are rendered in two different pages
     }
 
     .home-page-video, .about-page-what-is {
-        .columns {
-            gap: 0;
-            align-items: center;
-        }
-
         .column-left, .column-right {
-            width: 100%;
-        }
-
-        .column-left {
-            padding: 12px;
             width: auto;
-        }
-
-        .column-img {
-            width: 90vw;
-            margin: auto;
         }
     }
 
@@ -1146,7 +1130,7 @@ these are rendered in two different pages
     }
     
     .coordinating-body-card {
-        width: 50%;
+        width: 10ç0%;
     }
 
     /* NETWORK PAGE */
@@ -1226,6 +1210,45 @@ these are rendered in two different pages
 
         .footer-logo {
             height: 36px;
+        }
+    }
+
+    /* groups */
+    .coordinating-body-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .avatar {
+        width: 124px;
+    }
+
+    /* summit page */
+    .summit-page {
+        ul { 
+            text-align: justify;
+        }
+        
+        .columns {
+            gap: 20px;
+        }
+
+        & .details {
+            .column-left, .column-right {
+                width: auto;
+            }
+        }
+    }
+
+    .join-section-container {
+        background-size: 400%;
+
+        .column {
+            width: auto;
+        }
+
+        .columns {
+            gap: 32px;
         }
     }
 }
