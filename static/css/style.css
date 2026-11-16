@@ -922,10 +922,12 @@ these are rendered in two different pages
     }
 
     .home-page-video {
-        .column-img {
-            aspect-ratio: 4 / 5;
-            object-position: 80% top; 
-            width: 100%;
+        .columns {
+            flex-direction: column;
+        }
+
+        .column-left, .column-right {
+            width: auto;
         }
     }
 
@@ -963,6 +965,16 @@ these are rendered in two different pages
             background-size: 1536px;
         }
     }
+
+    .arrow {
+        display: none;
+    }
+
+    /* groups */
+    .coordinating-body-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
 
 
@@ -1062,9 +1074,6 @@ these are rendered in two different pages
         flex-wrap: wrap;
     }
 
-    .arrow {
-        display: none;
-    }
 
     /* ABOUT PAGE */
     .home-page-video {
