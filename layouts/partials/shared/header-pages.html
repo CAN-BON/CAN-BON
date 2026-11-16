@@ -2,38 +2,26 @@
 {{ $d := index hugo.Data $lang "home" "header" }}
 
 <div class="navbar-pages">
-    <a class="navbar-items left" href="{{ $d.home_link | absLangURL }}">
-        <img class="navbar-logo no-drag" src="{{ "images/logo-white.png" | relURL }}">
-        <p class="navbar-title">{{ $d.canbon }}</p>
-    </a>
+    <div class="navbar-items left">
+        <a class="navbar-items left" href="{{ $d.home_link | absLangURL }}">
+            <img class="navbar-logo no-drag" src="{{ "images/logo-white.png" | relURL }}">
+            <p class="navbar-title">{{ $d.canbon }}</p>
+        </a>
+    </div>
+
     <div class="navbar-items right">
-        <a href="{{ $d.home_link | absLangURL }}" class="navbar-link {{ if eq .Permalink ($d.home_link | absLangURL) }}active{{ end }}">{{ $d.home }}</a>
-        <a href="{{ $d.about_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.about_link | absLangURL) }}active{{ end }}">{{ $d.about }}</a>
-        <a href="{{ $d.resources_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.resources_link | absLangURL) }}active{{ end }}">{{ $d.resources }}</a>
-        <a href="{{ $d.summit_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.summit_link | absLangURL) }}active{{ end }}">{{ $d.summit }}</a>
+        <!-- page links: inline on desktop, dropdown on tablet/phone -->
+        <nav class="nav-links" id="nav-links">
+            <a href="{{ $d.home_link | absLangURL }}" class="navbar-link {{ if eq .Permalink ($d.home_link | absLangURL) }}active{{ end }}">{{ $d.home }}</a>
+            <a href="{{ $d.about_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.about_link | absLangURL) }}active{{ end }}">{{ $d.about }}</a>
+            <a href="{{ $d.resources_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.resources_link | absLangURL) }}active{{ end }}">{{ $d.resources }}</a>
+            <a href="{{ $d.summit_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.summit_link | absLangURL) }}active{{ end }}">{{ $d.summit }}</a>
+        </nav>
+
         {{ range .Translations }}
             <a class="lang-link" href="{{ .Permalink }}">{{ .Language.Name }}</a>
         {{ end }}
-    </div>
 
-    <!-- hamburger button -->
-    <!-- <div class="navbar-items right">
-        {{ range .Translations }}
-            <a class="lang-link mobile-display" href="{{ .Permalink }}">{{ .Language.Name }}</a>
-        {{ end }}
-        <button 
-            class="hamburger" id="hamburger-btn" 
-            onclick="toggleMenu()" 
-            aria-label="Menu">&#9776;
-        </button>
-    </div> -->
-
-    <!-- modal overlay -->
-    <div class="menu-modal" id="menu-modal">
-        <nav class="menu-modal-links">
-            <a href="{{ $d.home_link | absLangURL }}" class="menu-modal-link">{{ $d.home }}</a>
-            <a href="{{ $d.about_link | absLangURL }}" class="menu-modal-link">{{ $d.about }}</a>
-            <a href="{{ $d.resources_link | absLangURL }}" class="menu-modal-link">{{ $d.resources }}</a>
-        </nav>
+        <button class="hamburger" id="hamburger-btn" aria-label="Menu" aria-expanded="false">&#9776;</button>
     </div>
 </div>

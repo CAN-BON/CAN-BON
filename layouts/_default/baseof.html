@@ -8,36 +8,33 @@
     <title>{{ .Title }}</title>
 </head>
 
-<script>
-    function toggleMenu() {
-        var modal = document.getElementById("menu-modal");
-        var btn = document.getElementById("hamburger-btn");
-        if (modal.style.display === "flex") {
-            modal.style.display = "none";
-            btn.innerHTML = "&#9776;";
-        } else {
-            modal.style.display = "flex";
-            btn.innerHTML = "&#10005;";
-        }
-    }
-
-    // close when clicking outside the modal
-    document.addEventListener("click", function(e) {
-        var modal = document.getElementById("menu-modal");
-        var btn = document.getElementById("hamburger-btn");
-        if (modal.style.display === "flex" && 
-            !modal.contains(e.target) && 
-            e.target !== btn) {
-            modal.style.display = "none";
-            btn.innerHTML = "&#9776;";
-        }
-    });
-</script>
-
 <body>
     <main>
         {{ block "main" . }}{{ end }}
     </main>
     {{ partial "shared/footer.html" . }}
+
+    <script>
+        (function () {
+            var btn = document.getElementById("hamburger-btn");
+            var menu = document.getElementById("nav-links");
+            if (!btn || !menu) return;
+
+            function setOpen(open) {
+                menu.classList.toggle("open", open);
+                btn.innerHTML = open ? "&#10005;" : "&#9776;";
+                btn.setAttribute("aria-expanded", open);
+            }
+
+            btn.addEventListener("click", function (e) {
+                e.stopPropagation();
+                setOpen(!menu.classList.contains("open"));
+            });
+
+            document.addEventListener("click", function (e) {
+                if (!menu.contains(e.target)) setOpen(false);
+            });
+        })();
+    </script>
 </body>
 </html>
