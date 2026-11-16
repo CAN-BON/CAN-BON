@@ -18,12 +18,12 @@ toolkits:
 # template
 # - title: "Title"
 #   link : "example.com"
-- title: "CAN BON survey"
+- title: "CAN BON survey"    
   link : "https://canadabon.limesurvey.net/767524"
-- title: "GEO BON"
-  link : "https://geobon.org/"
 - title: "BON in a Box"
   link : "https://boninabox.geobon.org/"
+- title: "GEO BON"
+  link : "https://geobon.org/"
 
 webinars: 
 # template
