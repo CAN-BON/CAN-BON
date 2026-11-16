@@ -2,7 +2,7 @@ introduction :
   title: "Our resources"
   subtitle : "Our publications, toolkits, and webinars - all in one place."
   title_publications: "Publications"
-  title_toolkits: "Toolkits"
+  title_toolkits: "Useful links"
   title_webinars: "Webinars & videos"
 
 publications: 
@@ -15,10 +15,12 @@ publications:
   link : "https://www.nature.com/articles/s41559-023-02171-0"
 
 toolkits: 
-- title: "BON in a Box"
-  link : "https://boninabox.geobon.org/"
+- title: "CAN BON survey"
+  link : "canadabon.limesurvey.net/767524"
 - title: "GEO BON"
   link : "https://geobon.org/"
+- title: "BON in a Box"
+  link : "https://boninabox.geobon.org/"
 
 webinars: 
 # template
