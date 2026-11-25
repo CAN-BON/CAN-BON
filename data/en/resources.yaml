@@ -9,10 +9,21 @@ publications:
 # template
 # - title: "Title"
 #   link : "example.com"
-- title: "Gonzalez, A. et al. (2025) _A Biodiversity Observation Network to support conservation action and mainstream knowledge in Canada (Volume 10, 2025)_. FACETS."
+- title: "Catchen, M. et al. (2026) Designing optimal biodiversity observation networks (Preprint, 2026). EcoEvoRxiv."
+  link : "https://ecoevorxiv.org/repository/view/14980"
+- title: "Griffith, J. et al. (2026) BON in a Box: An Open and Collaborative Platform for Biodiversity Monitoring, Indicator Calculation, and Reporting (Volume 76, 2026). BioScience."
+  link : "https://academic.oup.com/bioscience/article/76/4/345/8424339"
+- title: "Gonzalez, A. et al. (2026) From data to decisions: Toward a Biodiversity Monitoring Standards Framework (Volume 123, No. 10, 2026). PNAS."
+  link : "https://www.pnas.org/doi/10.1073/pnas.2519347123"
+- title: "Gonzalez, A. et al. (2025) _A Biodiversity Observation Network to support conservation action and mainstream knowledge in Canada (Volume 10, 2025). FACETS."
   link : "https://www.facetsjournal.com/doi/10.1139/facets-2024-0206"
-- title: "Gonzalez, A et al. (2023) _A global biodiversity observing system to unite monitoring and guide action_ (7) Nature Ecology & Evolution."
+- title: "Gonzalez, A et al. (2023) A global biodiversity observing system to unite monitoring and guide action (Volume 7, 2023). Nature Ecology & Evolution."
   link : "https://www.nature.com/articles/s41559-023-02171-0"
+- title: "Tekwa, E. et al. (2023) Detecting and attributing the causes of biodiversity change: needs, gaps and solutions (Volume 378, 2023). Philosophical Transactions of the Royal Society B."
+  link : "https://doi.org/10.1098/rstb.2022.0181"
+- title: "Gonzalez, A. et al. (2023) A framework for the detection and attribution of biodiversity change (Volume 378, 2023). Philosophical Transactions of the Royal Society B."
+  link : "https://doi.org/10.1098/rstb.2022.0182"
+  
 
 toolkits: 
 # template
