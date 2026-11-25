@@ -6,10 +6,22 @@ introduction :
   title_webinars: "Webinaires et vidéos"
 
 publications: 
-- title: "Gonzalez, A. et al. (2025) _Un réseau d'observation de la biodiversité pour soutenir les mesures de conservation et intégrer les connaissances au Canada (Volume 10, 2025)_. FACETS."
-  link : "https://www.facetsjournal.com/doi/10.1139/facets-2024-0206"
-- title: "Gonzalez, A. et al. (2023) _Un système mondial d'observation de la biodiversité pour unifier le suivi et orienter l'action_ (7) Nature Ecology & Evolution."
-  link : "https://www.nature.com/articles/s41559-023-02171-0"
+- title: "Catchen, M. et al. (2026) Designing optimal biodiversity observation networks (prépublication, 2026). EcoEvoRxiv."
+  link: "https://ecoevorxiv.org/repository/view/14980"
+- title: "Griffith, J. et al. (2026) BON in a Box: An Open and Collaborative Platform for Biodiversity Monitoring, Indicator Calculation, and Reporting (vol. 76, 2026). BioScience."
+  link: "https://academic.oup.com/bioscience/article/76/4/345/8424339"
+- title: "Gonzalez, A. et al. (2026) From data to decisions: Toward a Biodiversity Monitoring Standards Framework (vol. 123, no 10, 2026). PNAS."
+  link: "https://www.pnas.org/doi/10.1073/pnas.2519347123"
+- title: "Gonzalez, A. et al. (2025) A Biodiversity Observation Network to support conservation action and mainstream knowledge in Canada (vol. 10, 2025). FACETS."
+  link: "https://www.facetsjournal.com/doi/10.1139/facets-2024-0206"
+- title: "Gonzalez, A. et al. (2023) A global biodiversity observing system to unite monitoring and guide action (vol. 7, 2023). Nature Ecology & Evolution."
+  link: "https://www.nature.com/articles/s41559-023-02171-0"
+- title: "Tekwa, E. et al. (2023) Detecting and attributing the causes of biodiversity change: needs, gaps and solutions (vol. 378, 2023). Philosophical Transactions of the Royal Society B."
+  link: "https://doi.org/10.1098/rstb.2022.0181"
+- title: "Gonzalez, A. et al. (2023) A framework for the detection and attribution of biodiversity change (vol. 378, 2023). Philosophical Transactions of the Royal Society B."
+  link: "https://doi.org/10.1098/rstb.2022.0182"
+
+  
 
 toolkits: 
   - title: "Questionnaire CAN BON"
